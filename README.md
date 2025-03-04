@@ -74,7 +74,7 @@ The issue would go away as well if the structure would change, but then types wo
     ".": "./src/index.js",
     "./register": "./src/register.js",
     "./src/*": "./src/*",
-    "./types": "./src/types/index.d.ts",
+    "./types": "./src/types/index.d.ts"
   }
 }
 ```
