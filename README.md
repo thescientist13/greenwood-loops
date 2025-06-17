@@ -47,7 +47,7 @@ Running Greenwood with the  command.
           info at https://www.greenwoodjs.dev/.
 ```
 
-The issue goes away if setting `"verbatimModuleSyntax": true` in _tsconfig.json_.
+The issue goes away if setting `"verbatimModuleSyntax": false` in _tsconfig.json_.
 
 ----
 
