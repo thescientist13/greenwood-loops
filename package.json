@@ -4,13 +4,13 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "NODE_OPTIONS='--import @greenwood/cli/register' greenwood develop",
+    "dev": "NODE_OPTIONS='--import @greenwood/cli/register --experimental-strip-types' greenwood develop",
     "start": "greenwood develop",
     "build": "greenwood build",
     "serve": "greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.32.0-alpha.0",
-    "@greenwood/plugin-typescript": "^0.32.0-alpha.0"
+    "@greenwood/cli": "~0.32.0",
+    "typescript": "^5.8.3"
   }
 }
