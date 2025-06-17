@@ -1,4 +1,4 @@
-import { type Compilation, type Page, type GetFrontmatter } from "@greenwood/cli";
+import type { Compilation, Page, GetFrontmatter } from "@greenwood/cli";
 
 const html: string = `
   <h2>About Page</h2>
