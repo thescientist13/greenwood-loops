@@ -4,13 +4,14 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "NODE_OPTIONS='--import @greenwood/cli/register --experimental-strip-types' greenwood develop",
-    "start": "NODE_OPTIONS='--import @greenwood/cli/register --experimental-strip-types' greenwood develop",
-    "build": "NODE_OPTIONS='--import @greenwood/cli/register --experimental-strip-types' greenwood build",
-    "serve": "NODE_OPTIONS='--import @greenwood/cli/register --experimental-strip-types' greenwood serve"
+    "dev": "NODE_OPTIONS='--import @greenwood/cli/register' greenwood develop",
+    "start": "NODE_OPTIONS='--import @greenwood/cli/register' greenwood develop",
+    "build": "NODE_OPTIONS='--import @greenwood/cli/register' greenwood build",
+    "serve": "NODE_OPTIONS='--import @greenwood/cli/register' greenwood serve",
+    "check:types": "tsc"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.33.0-alpha.3",
+    "@greenwood/cli": "~0.33.0",
     "typescript": "^5.8.3"
   }
 }
